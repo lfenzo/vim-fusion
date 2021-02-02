@@ -76,7 +76,7 @@ hi DiffText   ctermfg=229 ctermbg=none cterm=bold
 
 "" Style
 hi Bold       cterm=bold
-hi Underlined cterm=underline
+exe 'hi Underlined 's:lightOrange' cterm=underline,bold'
 hi Italic     cterm=italic
 hi Ignore     cterm=none
 hi Error      ctermfg=9 ctermbg=none cterm=undercurl guisp=#ff5f87
@@ -96,7 +96,7 @@ exe 'hi Boolean      's:lightPurple''
 exe 'hi Special   's:heavyOrange''
 exe 'hi SpecialChar 's:purple''
 hi Tag         ctermfg=231
-hi Debug       ctermfg=231
+hi Debug       ctermfg=10
 exe 'hi Delimiter 's:red''
 
 "" Identifier 

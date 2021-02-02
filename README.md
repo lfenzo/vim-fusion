@@ -36,3 +36,6 @@ Plug 'lfenzo/vim-fusion'
 
 ### LaTeX
 ![](./screenshots/latex.png)
+
+### HTML
+![](./screenshots/html.png)
