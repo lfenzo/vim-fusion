@@ -97,7 +97,7 @@ exe 'hi Special   's:heavyOrange''
 exe 'hi SpecialChar 's:purple''
 hi Tag         ctermfg=231
 hi Debug       ctermfg=231
-exe 'hi Delimiter 's:heavyOrange''
+exe 'hi Delimiter 's:red''
 
 "" Identifier 
 exe 'hi Identifier 's:heavyGreen''
