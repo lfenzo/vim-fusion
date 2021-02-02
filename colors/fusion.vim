@@ -42,8 +42,8 @@ hi SpecialKey ctermfg=244
 exe 'hi Directory 's:lightBlue''
 exe 'hi Title 's:boldWhite''
 hi WarningMsg ctermfg=9 ctermbg=none cterm=undercurl guisp=#ff5f87
-hi ModeMsg    ctermfg=9
-hi MoreMsg    ctermfg=9
+hi ModeMsg    ctermfg=15 cterm=bold
+hi MoreMsg    ctermfg=15
 hi Question   ctermfg=231 cterm=none
 hi NonText    ctermfg=232
 
