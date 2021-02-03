@@ -48,11 +48,11 @@ hi Question   ctermfg=231 cterm=none
 hi NonText    ctermfg=232
 
 hi Menu         ctermfg=253
-hi WildMenu     ctermfg=253 ctermbg=238 cterm=none
-hi Pmenu        ctermfg=253 ctermbg=238 
-hi PmenuSel     ctermfg=253 ctermbg=240
-hi PmenuSbar    ctermfg=253 ctermbg=241
-hi PmenuThumb   ctermfg=253 ctermbg=243
+hi WildMenu     ctermfg=254 ctermbg=238 cterm=none
+hi Pmenu        ctermfg=254 ctermbg=238 
+hi PmenuSel     ctermfg=15 ctermbg=242 cterm=bold
+hi PmenuSbar    ctermfg=15 ctermbg=241
+hi PmenuThumb   ctermfg=254 ctermbg=243
 
 "hi StatusLine   ctermfg=231 ctermbg=238 cterm=bold
 "hi StatusLineNC ctermfg=249 ctermbg=238 cterm=none
