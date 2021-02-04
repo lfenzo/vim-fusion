@@ -1,6 +1,6 @@
 # Vim Fusion
 
-A neutral colorscheme for Vim/NeoVim featuring 
+A neutral colorscheme for Vim/NeoVim.
 
 ## Installation
 
