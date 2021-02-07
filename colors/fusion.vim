@@ -115,14 +115,14 @@ exe 'hi Exeption 's:heavyOrange''
 
 exe 'hi Type 's:mediumOrange''
 exe 'hi StorageClass 's:heavyOrange''
-exe 'hi Structure 's:heavyOrange' cterm=italic'
+exe 'hi Structure 's:red' cterm=italic,bold'
 exe 'hi Typedef 's:red''
 
 "" Python Stuff
 exe 'hi pythonClassVar 's:heavyBlue''
 exe 'hi pythonFunctionCall 's:boldWhite'' 
 exe 'hi pythonBuiltinObj 's:heavyBlue''
-exe 'hi pythonBuiltinFunc 's:lightBlue' cterm=italic'
+exe 'hi pythonBuiltinFunc 's:heavyBlue' cterm=italic,bold'
 
 "" C/C++ Stuff
 exe 'hi PreCondit 's:red''
