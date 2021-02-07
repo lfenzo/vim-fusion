@@ -1,24 +1,26 @@
 # Vim Fusion
 
-Fusion colorscheme for Vim/NeoVim
+A neutral colorscheme for Vim/NeoVim.
 
 ## Installation
 
-For both methods described bellow add the following line to your `.vimrc`
+For any of the methods described bellow add the following line to your `.vimrc`
 
 ```console
 colorscheme fusion
 ```
-
 ### Manual Installation
 
-Clone the repo to `~/.vim/colors` directory (if it doesn't exist: `mkdir ~/.vim/colors`)
+Clone the repo and add the file `fusion.vim` to the `colors` directory inside `.vim`. In case you don't have it: `mkdir ~/.vim/colors`
 
-### vim-plug
+### Using vim-plug
+
+Inside the ``call plug#begin( ) ... plug#end`` add the following:
 
 ```console
 Plug 'lfenzo/vim-fusion'
 ```
+And then, `:w`, `:source %` and `:PlugInstall`.
 
 ## Screenshots
 
