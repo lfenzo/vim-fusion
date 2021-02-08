@@ -1,5 +1,7 @@
 set bg=dark
 
+set fillchars+=vert:≀
+
 hi clear
 if exists("syntax_on")
     syntax reset
@@ -56,7 +58,7 @@ hi PmenuThumb   ctermfg=254 ctermbg=243
 
 "hi StatusLine   ctermfg=231 ctermbg=238 cterm=bold
 "hi StatusLineNC ctermfg=249 ctermbg=238 cterm=none
-hi VertSplit    ctermfg=249 ctermbg=none cterm=none
+hi VertSplit    ctermfg=249 ctermbg=235 cterm=bold
 
 hi Folded     ctermfg=10 ctermbg=none cterm=bold
 hi FoldColumn ctermfg=10 ctermbg=none cterm=bold
