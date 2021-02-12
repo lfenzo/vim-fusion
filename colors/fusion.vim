@@ -1,6 +1,6 @@
 set bg=dark
 
-set fillchars+=vert:≀
+set fillchars+=vert:∣
 
 hi clear
 if exists("syntax_on")
@@ -24,10 +24,10 @@ let s:heavyOrange = 'ctermfg=208 cterm=bold'
 
 let s:red = 'ctermfg=167 cterm=bold'
 
-let s:lightGreen = 'ctermfg=114, cterm=bold' 
+let s:lightGreen = 'ctermfg=114 cterm=bold' 
 let s:heavyGreen = 'ctermfg=73' 
 
-let s:purple = 'ctermfg=141' 
+let s:purple = 'ctermfg=141 cterm=bold' 
 let s:lightPurple = 'ctermfg=135 cterm=bold'
 
 
@@ -107,7 +107,6 @@ exe 'hi Function 's:heavyOrange''
 exe 'hi Operator 's:mediumOrange''
 
 "" Keyword
-exe 'hi Statement 's:lightBlue''
 exe 'hi Statement 's:lightBlue''
 exe 'hi Conditional 's:lightOrange''
 exe 'hi Repeat 's:lightOrange''
