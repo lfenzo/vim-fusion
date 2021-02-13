@@ -108,8 +108,8 @@ exe 'hi Operator 's:mediumOrange''
 
 "" Keyword
 exe 'hi Statement 's:lightBlue''
-exe 'hi Conditional 's:lightOrange''
-exe 'hi Repeat 's:lightOrange''
+exe 'hi Conditional 's:lightBlue''
+exe 'hi Repeat 's:lightBlue''
 exe 'hi Label 's:heavyBlue''
 exe 'hi Keyword 's:red''
 exe 'hi Exeption 's:heavyOrange''
@@ -117,7 +117,7 @@ exe 'hi Exeption 's:heavyOrange''
 exe 'hi Type 's:mediumOrange''
 exe 'hi StorageClass 's:heavyOrange''
 exe 'hi Structure 's:red' cterm=italic,bold'
-exe 'hi Typedef 's:red''
+exe 'hi Typedef 's:heavyOrange''
 
 "" Python Stuff
 exe 'hi pythonClassVar 's:heavyBlue''
