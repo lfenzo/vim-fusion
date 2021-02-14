@@ -1,48 +1,57 @@
 set bg=dark
-
 set fillchars+=vert:∣
+set t_Co=256
 
 hi clear
+
 if exists("syntax_on")
     syntax reset
 endif
 
 let g:colors_name="fusion"
 
-" Color Palette Definitions
-let s:Normal="ctermfg=15 ctermbg=235, cterm=bold"
 
-let s:lightBlue = 'ctermfg=111 cterm=bold'
-let s:heavyBlue = 'ctermfg=105, cterm=bold'
+" Interface Defaults
+let s:background        = 'ctermfg=15       ctermbg=234'
+let s:search            = 'ctermfg=240      ctermbg=226'
+let s:visual_backgroud  = 'ctermbg=239'
+let s:error_message     = 'ctermfg=15       ctermbg=9       cterm=bold' 
 
-let s:white = 'ctermfg=15' 
-let s:boldWhite = 'ctermfg=15, cterm=bold'
+" Palette Defaults
+let s:white             = 'ctermfg=15'
 
-let s:lightOrange = 'ctermfg=222, cterm=bold'
-let s:mediumOrange = 'ctermfg=215, cterm=bold'  
-let s:heavyOrange = 'ctermfg=208 cterm=bold' 
+let s:blue              = 'ctermfg=69       cterm=bold'
+let s:light_blue        = 'ctermfg=111      cterm=bold'
 
-let s:red = 'ctermfg=167 cterm=bold'
+let s:orange            = 'ctermfg=208      cterm=bold' 
+let s:light_orange      = 'ctermfg=215      cterm=bold'  
 
-let s:lightGreen = 'ctermfg=114 cterm=bold' 
-let s:heavyGreen = 'ctermfg=73' 
+let s:red               = 'ctermfg=196      cterm=bold'
+let s:light_red         = 'ctermfg=167      cterm=bold'
 
-let s:purple = 'ctermfg=141 cterm=bold' 
-let s:lightPurple = 'ctermfg=135 cterm=bold'
+let s:green             = 'ctermfg=72       cterm=bold' 
+let s:light_green       = 'ctermfg=114      cterm=bold' 
+
+let s:purple            = 'ctermfg=135      cterm=bold'
+let s:light_purple      = 'ctermfg=141      cterm=bold' 
+
+
+
+
 
 
 
 " Applying Palette of Colors to Colorscheme
-exe 'hi Normal 's:Normal''
-hi ErrorMsg  ctermfg=15 ctermbg=9 cterm=bold
-hi visual    ctermbg=239
+exe 'hi Normal          's:background''
+exe 'hi ErrorMsg        's:error_message'' 
+exe 'hi visual          's:visual_backgroud''
 hi Todo      ctermfg=231 ctermbg=none cterm=bold
-hi Search    ctermfg=240 ctermbg=226
+hi Search   ctermfg=240 ctermbg=226
 hi IncSearch ctermfg=240 ctermbg=226 cterm=bold
 
 hi SpecialKey ctermfg=244
-exe 'hi Directory 's:lightBlue''
-exe 'hi Title 's:boldWhite''
+exe 'hi Directory       's:light_blue''
+exe 'hi Title           's:light_green''
 hi WarningMsg ctermfg=9 ctermbg=none cterm=undercurl guisp=#ff5f87
 hi ModeMsg    ctermfg=15 cterm=bold
 hi MoreMsg    ctermfg=15
@@ -78,61 +87,139 @@ hi DiffText   ctermfg=229 ctermbg=none cterm=bold
 
 "" Style
 hi Bold       cterm=bold
-exe 'hi Underlined 's:lightOrange' cterm=underline,bold'
+exe 'hi Underlined 's:purple' cterm=underline,bold'
 hi Italic     cterm=italic
 hi Ignore     cterm=none
 hi Error      ctermfg=9 ctermbg=none cterm=undercurl guisp=#ff5f87
+
+"
+"
+" SYNTAX HIGHLIGHTING
+"
+"
 
 "" Comment
 hi Comment         ctermfg=249 cterm=italic
 hi SpecialComment  ctermfg=249 cterm=italic
 
-"" Type
-exe 'hi Constant     's:heavyGreen''
-exe 'hi String       's:lightGreen''
-exe 'hi Character    's:lightGreen''
-exe 'hi Number       's:purple''
-exe 'hi Float        's:purple''
-exe 'hi Boolean      's:lightPurple''
+exe 'hi Constant    's:light_purple''
+exe 'hi String      's:light_green''
+exe 'hi Character   's:light_green''
+exe 'hi Number      's:light_purple''
+exe 'hi Float       's:light_purple''
+exe 'hi Boolean     's:light_purple''
 
-exe 'hi Special   's:heavyOrange''
+exe 'hi Special     's:orange''
 exe 'hi SpecialChar 's:purple''
 hi Tag         ctermfg=231
 hi Debug       ctermfg=10
-exe 'hi Delimiter 's:red''
+exe 'hi Delimiter   's:light_red''
 
-"" Identifier 
-exe 'hi Identifier 's:heavyGreen''
-exe 'hi Function 's:heavyOrange'' 
-exe 'hi Operator 's:mediumOrange''
+exe 'hi Identifier  's:green''
+exe 'hi Function    's:orange'' 
+exe 'hi Operator    's:light_orange''
 
-"" Keyword
-exe 'hi Statement 's:lightBlue''
-exe 'hi Conditional 's:lightBlue''
-exe 'hi Repeat 's:lightBlue''
-exe 'hi Label 's:heavyBlue''
-exe 'hi Keyword 's:red''
-exe 'hi Exeption 's:heavyOrange''
+exe 'hi Statement   's:light_blue''
+exe 'hi Conditional 's:light_blue''
+exe 'hi Repeat      's:light_blue''
+exe 'hi Label       's:light_blue''
+exe 'hi Keyword     's:light_red''
+exe 'hi Exeption    's:orange''
 
-exe 'hi Type 's:mediumOrange''
-exe 'hi StorageClass 's:heavyOrange''
-exe 'hi Structure 's:red' cterm=italic,bold'
-exe 'hi Typedef 's:heavyOrange''
+exe 'hi Type        's:light_orange''
+exe 'hi StorageClass's:light_orange''
+exe 'hi Structure   's:light_red' cterm=italic,bold'
+exe 'hi Typedef     's:orange''
 
-"" Python Stuff
-exe 'hi pythonClassVar 's:heavyBlue''
-exe 'hi pythonFunctionCall 's:boldWhite'' 
-exe 'hi pythonBuiltinObj 's:heavyBlue''
-exe 'hi pythonBuiltinFunc 's:heavyBlue' cterm=italic,bold'
+exe 'hi PreCondit   's:light_red''
+exe 'hi PreProc     's:light_red''
+exe 'hi Include     's:light_blue''
+exe 'hi Define      's:white''
+exe 'hi Macro       's:blue''
 
-"" C/C++ Stuff
-exe 'hi PreCondit 's:red''
-exe 'hi PreProc 's:red''
-exe 'hi Include 's:lightBlue''
-exe 'hi Define 's:boldWhite''
-exe 'hi Macro 's:heavyBlue''
+"" Python Syntax
+exe 'hi pythonClassVar      's:purple' cterm=italic,bold'
+exe 'hi pythonFunctionCall  's:white'' 
+exe 'hi pythonBuiltinObj    's:blue''
+exe 'hi pythonBuiltinFunc   's:blue' cterm=italic,bold'
 
 "" Spell Check
 hi SpellBad    ctermfg=none ctermbg=none cterm=undercurl guisp=#ff5f87
 hi SpellCap    ctermfg=none ctermbg=none cterm=undercurl guisp=#ff5f87
 hi SpellLocal  ctermfg=none ctermbg=none cterm=undercurl guisp=#ff5f87
+
+" LaTeX Syntax
+exe 'hi texDocType          's:orange''
+exe 'hi texDocTypeArgs      's:light_purple''
+exe 'hi texInputFile        's:light_orange''
+exe 'hi texInputFileOpt     's:light_purple''
+exe 'hi texMathMatcher      's:light_orange''
+exe 'hi texMathSymbol       's:light_orange''
+exe 'hi texMathZoneA        's:light_orange''
+exe 'hi texMathZoneAS       's:light_orange''
+exe 'hi texSection          's:light_red''
+exe 'hi texSectionTitle     's:light_green'' 
+exe 'hi texStatement        's:light_blue''
+exe 'hi texTypeSize         's:light_orange''
+exe 'hi texTypeStyle        's:light_blue''
+
+" Markdown Syntax 
+exe 'hi mkdBlockquote       's:light_orange''
+exe 'hi mkdCodeStart        's:light_red''
+exe 'hi mkdCodeEnd          's:light_red''
+exe 'hi mkdCode             's:light_orange''
+exe 'hi mkdIndentCode       's:light_blue''
+exe 'hi mdkCodeDelimiter    's:orange''
+exe 'hi mkdListItem         's:orange''
+exe 'hi mkdLinkTitle        's:light_blue''
+exe 'hi mkdRule             's:light_red''
+exe 'hi mkdLink             's:light_blue''
+exe 'hi mkdURL              's:purple' cterm=bold,underline'
+
+" CSS Syntax
+exe 'hi cssIdentifier           's:red''
+exe 'hi cssClassName            's:light_blue''
+exe 'hi cssBraces               's:orange''
+exe 'hi cssFunctionName         's:orange''
+exe 'hi cssColor                's:light_purple''
+exe 'hi cssSelectorOp           's:blue''
+exe 'hi cssSelectorOp2          's:blue''
+exe 'hi cssImportant            's:blue''           
+exe 'hi cssVendor               's:blue''
+
+exe 'hi cssTextProp             's:light_orange''
+exe 'hi cssAnimationProp        's:light_orange''
+exe 'hi cssUIProp               's:light_orange''
+exe 'hi cssTransformProp        's:light_orange'' 
+exe 'hi cssTransitionProp       's:light_orange''
+exe 'hi cssPrintProp            's:light_orange''
+exe 'hi cssPositioningProp      's:light_orange''
+exe 'hi cssBoxProp              's:light_orange''
+exe 'hi cssFontDescriptorProp   's:light_orange''
+exe 'hi cssFlexibleBoxProp      's:light_orange''
+exe 'hi cssBorderOutlineProp    's:light_orange''
+exe 'hi cssBackgroundProp       's:light_orange''
+exe 'hi cssMarginProp           's:light_orange''
+exe 'hi cssListProp             's:light_orange''
+exe 'hi cssTableProp            's:light_orange''
+exe 'hi cssFontProp             's:light_orange''
+exe 'hi cssPaddingProp          's:light_orange''
+exe 'hi cssDimensionProp        's:light_orange''
+exe 'hi cssRenderProp           's:light_orange''
+exe 'hi cssColorProp            's:light_orange''
+exe 'hi cssGeneratedContentProp 's:light_orange''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
