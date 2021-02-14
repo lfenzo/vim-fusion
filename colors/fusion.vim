@@ -178,7 +178,7 @@ exe 'hi mkdURL              's:purple' cterm=bold,underline'
 
 " CSS Syntax
 exe 'hi cssIdentifier           's:red''
-exe 'hi cssClassName            's:light_blue''
+exe 'hi cssClassName            's:light_blue' cterm=bold,italic'
 exe 'hi cssBraces               's:orange''
 exe 'hi cssFunctionName         's:orange''
 exe 'hi cssColor                's:light_purple''
@@ -209,17 +209,6 @@ exe 'hi cssRenderProp           's:light_orange''
 exe 'hi cssColorProp            's:light_orange''
 exe 'hi cssGeneratedContentProp 's:light_orange''
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+" JSON Syntax
+exe 'hi jsonQuote               's:light_orange''
 
