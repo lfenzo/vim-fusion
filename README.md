@@ -1,6 +1,6 @@
 # Vim Fusion
 
-A neutral colorscheme for Vim/NeoVim.
+A neutral colorscheme for Vim/NeoVim. Vim Fusion works optimally with [vim-polyglot](https://github.com/sheerun/vim-polyglot) thanks to some of its syntax highlighting definitions; the installation of this plugin is not mandatory but keep in mind that some of the highlightings may not work exactly as shown below when it is not installed. 
 
 ## Installation
 
@@ -27,17 +27,17 @@ And then, `:w`, `:source %` and `:PlugInstall`.
 ### Python
 ![](./screenshots/python.png)
 
-### C
-![](./screenshots/C.png)
-
 ### C++
-![](./screenshots/Cpp.png)
-
-### Javascript
-![](./screenshots/javascript.png)
+![](./screenshots/ppp.png)
 
 ### LaTeX
 ![](./screenshots/latex.png)
 
 ### HTML
 ![](./screenshots/html.png)
+
+### CSS
+![](./screenshots/css.png)
+
+### Markdown
+![](./screenshots/markdown.png)
