@@ -28,16 +28,13 @@ And then, `:w`, `:source %` and `:PlugInstall`.
 ![](./screenshots/python.png)
 
 ### C++
-![](./screenshots/ppp.png)
+![](./screenshots/cpp.png)
 
 ### LaTeX
 ![](./screenshots/latex.png)
 
-### HTML
-![](./screenshots/html.png)
+### HTML & CSS
+![](./screenshots/html-css.png)
 
-### CSS
-![](./screenshots/css.png)
-
-### Markdown
-![](./screenshots/markdown.png)
+### JSON & XML
+![](./screenshots/json-xml.png)

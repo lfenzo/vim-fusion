@@ -27,7 +27,7 @@ let s:orange            = 'ctermfg=208      cterm=bold'
 let s:light_orange      = 'ctermfg=215      cterm=bold'  
 
 let s:red               = 'ctermfg=196      cterm=bold'
-let s:light_red         = 'ctermfg=167      cterm=bold'
+let s:light_red         = 'ctermfg=168      cterm=bold'
 
 let s:green             = 'ctermfg=72       cterm=bold' 
 let s:light_green       = 'ctermfg=114      cterm=bold' 
@@ -87,7 +87,7 @@ hi DiffText   ctermfg=229 ctermbg=none cterm=bold
 
 "" Style
 hi Bold       cterm=bold
-exe 'hi Underlined 's:purple' cterm=underline,bold'
+exe 'hi Underlined 's:light_purple' cterm=underline,bold'
 hi Italic     cterm=italic
 hi Ignore     cterm=none
 hi Error      ctermfg=9 ctermbg=none cterm=undercurl guisp=#ff5f87
@@ -139,7 +139,7 @@ exe 'hi Macro       's:blue''
 
 "" Python Syntax
 exe 'hi pythonClassVar      's:purple' cterm=italic,bold'
-exe 'hi pythonFunctionCall  's:white'' 
+exe 'hi pythonFunctionCall  's:white' cterm=bold' 
 exe 'hi pythonBuiltinObj    's:blue''
 exe 'hi pythonBuiltinFunc   's:blue' cterm=italic,bold'
 
@@ -174,7 +174,7 @@ exe 'hi mkdListItem         's:orange''
 exe 'hi mkdLinkTitle        's:light_blue''
 exe 'hi mkdRule             's:light_red''
 exe 'hi mkdLink             's:light_blue''
-exe 'hi mkdURL              's:purple' cterm=bold,underline'
+exe 'hi mkdURL              's:light_purple' cterm=bold,underline'
 
 " CSS Syntax
 exe 'hi cssIdentifier           's:red''
@@ -211,4 +211,17 @@ exe 'hi cssGeneratedContentProp 's:light_orange''
 
 " JSON Syntax
 exe 'hi jsonQuote               's:light_orange''
+
+" XML Syntax
+exe 'hi xmlTag                  's:orange''
+exe 'hi xmlTagName              's:light_blue' cterm=italic,bold'
+exe 'hi xmlAttrib               's:light_orange''
+exe 'hi xmlDocTypeKeyword       's:light_red''
+exe 'hi xmlEntity           's:green''
+
+
+
+
+
+
 
