@@ -182,8 +182,8 @@ exe 'hi cssClassName            's:light_blue' cterm=bold,italic'
 exe 'hi cssBraces               's:orange''
 exe 'hi cssFunctionName         's:orange''
 exe 'hi cssColor                's:light_purple''
-exe 'hi cssSelectorOp           's:blue''
-exe 'hi cssSelectorOp2          's:blue''
+exe 'hi cssSelectorOp           's:light_red''
+exe 'hi cssSelectorOp2          's:orange''
 exe 'hi cssImportant            's:blue''           
 exe 'hi cssVendor               's:blue''
 
@@ -217,7 +217,8 @@ exe 'hi xmlTag                  's:orange''
 exe 'hi xmlTagName              's:light_blue' cterm=italic,bold'
 exe 'hi xmlAttrib               's:light_orange''
 exe 'hi xmlDocTypeKeyword       's:light_red''
-exe 'hi xmlEntity           's:green''
+exe 'hi xmlEntity               's:green''
+exe 'hi xmlProcessingDelim      's:light_red''
 
 
 
