@@ -99,8 +99,8 @@ hi Error      ctermfg=9 ctermbg=none cterm=undercurl guisp=#ff5f87
 "
 
 "" Comment
-hi Comment         ctermfg=249 cterm=italic
-hi SpecialComment  ctermfg=249 cterm=italic
+hi Comment         ctermfg=244 cterm=italic
+hi SpecialComment  ctermfg=244 cterm=italic
 
 exe 'hi Constant    's:light_purple''
 exe 'hi String      's:light_green''
