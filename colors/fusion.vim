@@ -75,7 +75,7 @@ hi SignColumn ctermbg=none
 
 hi LineNr       ctermfg=247 cterm=none
 hi CursorLineNr ctermfg=15 cterm=bold 
-hi CursorLine   ctermbg=238 cterm=none
+hi CursorLine   ctermbg=236 cterm=none
 hi CursorColumn ctermbg=9 cterm=none
 hi CursorIM     ctermbg=239 cterm=none
 hi MatchParen   ctermbg=242
