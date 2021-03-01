@@ -220,9 +220,16 @@ exe 'hi xmlDocTypeKeyword       's:light_red''
 exe 'hi xmlEntity               's:green''
 exe 'hi xmlProcessingDelim      's:light_red''
 
-
-
-
-
-
-
+" NerdTree Syntax
+exe 'hi NERDTreeOpenable        's:light_orange''
+exe 'hi NERDTreeClosable        's:light_red''
+exe 'hi NERDTreeFile            's:white' cterm=bold'
+exe 'hi NERDTreeDir             's:light_blue''
+exe 'hi NERDTreeDirSlash        's:orange''
+exe 'hi NERDTreeUp              's:light_red''
+exe 'hi NERDTreeLinkDir         's:blue''
+exe 'hi NERDTreeLinkFile        's:blue''
+exe 'hi NERDTreeLinkTarget      's:light_purple''
+exe 'hi NERDTreeHelpTitle       's:light_orange''
+exe 'hi NERDTreeHelp            's:light_purple''
+exe 'hi NERDTreeExecFile        's:light_orange''
