@@ -32,7 +32,7 @@ let s:light_red         = 'ctermfg=168      cterm=bold'
 let s:green             = 'ctermfg=72       cterm=bold' 
 let s:light_green       = 'ctermfg=114      cterm=bold' 
 
-let s:purple            = 'ctermfg=135      cterm=bold'
+let s:purple            = 'ctermfg=99       cterm=bold'
 let s:light_purple      = 'ctermfg=141      cterm=bold' 
 
 
@@ -186,7 +186,7 @@ exe 'hi cssSelectorOp           's:light_red''
 exe 'hi cssSelectorOp2          's:orange''
 exe 'hi cssImportant            's:blue''           
 exe 'hi cssVendor               's:blue''
-
+" --------------------------------------------------
 exe 'hi cssTextProp             's:light_orange''
 exe 'hi cssAnimationProp        's:light_orange''
 exe 'hi cssUIProp               's:light_orange''
@@ -221,15 +221,19 @@ exe 'hi xmlEntity               's:green''
 exe 'hi xmlProcessingDelim      's:light_red''
 
 " NerdTree Syntax
-exe 'hi NERDTreeOpenable        's:light_orange''
+exe 'hi NERDTreeOpenable        's:light_green''
 exe 'hi NERDTreeClosable        's:light_red''
 exe 'hi NERDTreeFile            's:white' cterm=bold'
-exe 'hi NERDTreeDir             's:light_blue''
+exe 'hi NERDTreeDir             's:light_purple''
 exe 'hi NERDTreeDirSlash        's:orange''
 exe 'hi NERDTreeUp              's:light_red''
 exe 'hi NERDTreeLinkDir         's:blue''
-exe 'hi NERDTreeLinkFile        's:blue''
+exe 'hi NERDTreeLinkFile        's:purple''
 exe 'hi NERDTreeLinkTarget      's:light_purple''
-exe 'hi NERDTreeHelpTitle       's:light_orange''
-exe 'hi NERDTreeHelp            's:light_purple''
 exe 'hi NERDTreeExecFile        's:light_orange''
+exe 'hi NERDTreeHelpTitle       's:light_red''
+exe 'hi NERDTreeHelp            's:light_blue''
+exe 'hi NERDTreeHelpKey         's:light_orange''
+
+" HTML Syntax
+exe 'hi htmlEndTag              's:orange''
