@@ -248,3 +248,9 @@ exe 'hi jsObjectShorthandProp   's:green''
 exe 'hi jsModuleComma           's:orange''
 exe 'hi jsNull                  's:light_purple''
 exe 'hi jsBuiltins              's:blue''
+
+" C++ Syntax
+exe 'hi cppAccess               's:light_blue''
+exe 'hi cppCast                 's:red''
+exe 'hi cppModifier             's:blue''
+exe 'hi cppOperator             's:light_blue''
