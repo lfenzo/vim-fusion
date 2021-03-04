@@ -238,3 +238,13 @@ exe 'hi NERDTreeCWD             's:orange''
 
 " HTML Syntax
 exe 'hi htmlEndTag              's:orange''
+
+" Javascript Syntax
+exe 'hi jsFuncCall              's:white' cterm=bold'
+exe 'hi jsThis                  's:purple''
+exe 'hi jsSuper                 's:blue''
+exe 'hi jsClassProperty         's:green''
+exe 'hi jsObjectShorthandProp   's:green''
+exe 'hi jsModuleComma           's:orange''
+exe 'hi jsNull                  's:light_purple''
+exe 'hi jsBuiltins              's:blue''
