@@ -15,7 +15,7 @@ let g:colors_name="fusion"
 let s:background        = 'ctermfg=15       ctermbg=234'
 let s:search            = 'ctermfg=240      ctermbg=226'
 let s:visual_backgroud  = 'ctermbg=239'
-let s:error_message     = 'ctermfg=15       ctermbg=9       cterm=bold' 
+let s:error_message     = 'ctermfg=15       ctermbg=196       cterm=bold' 
 
 " Palette Defaults
 let s:white             = 'ctermfg=15'
@@ -142,6 +142,7 @@ exe 'hi pythonClassVar      's:purple' cterm=italic,bold'
 exe 'hi pythonFunctionCall  's:white' cterm=bold' 
 exe 'hi pythonBuiltinObj    's:blue''
 exe 'hi pythonBuiltinFunc   's:blue' cterm=italic,bold'
+exe 'hi pythonDecorator     's:light_red''
 
 "" Spell Check
 hi SpellBad    ctermfg=none ctermbg=none cterm=undercurl guisp=#ff5f87
