@@ -27,7 +27,7 @@ let s:orange            = 'ctermfg=208      cterm=bold'
 let s:light_orange      = 'ctermfg=215      cterm=bold'  
 
 let s:red               = 'ctermfg=196      cterm=bold'
-let s:light_red         = 'ctermfg=168      cterm=bold'
+let s:light_red         = 'ctermfg=203      cterm=bold'
 
 let s:green             = 'ctermfg=72       cterm=bold' 
 let s:light_green       = 'ctermfg=114      cterm=bold' 
