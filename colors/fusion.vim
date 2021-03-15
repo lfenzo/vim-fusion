@@ -23,7 +23,7 @@ let s:white             = 'ctermfg=15'
 let s:blue              = 'ctermfg=69       cterm=bold'
 let s:light_blue        = 'ctermfg=111      cterm=bold'
 
-let s:orange            = 'ctermfg=208      cterm=bold' 
+let s:orange            = 'ctermfg=209      cterm=bold' 
 let s:light_orange      = 'ctermfg=215      cterm=bold'  
 
 let s:red               = 'ctermfg=196      cterm=bold'
@@ -150,12 +150,12 @@ hi SpellCap    ctermfg=none ctermbg=none cterm=undercurl guisp=#ff5f87
 hi SpellLocal  ctermfg=none ctermbg=none cterm=undercurl guisp=#ff5f87
 
 " LaTeX Syntax
-exe 'hi texDocType              's:orange''
+exe 'hi texDocType              's:blue''
 exe 'hi texDocTypeArgs          's:light_purple''
 exe 'hi texInputFile            's:light_orange''
 exe 'hi texInputFileOpt         's:light_purple''
 exe 'hi texMathMatcher          's:light_orange''
-exe 'hi texMathSymbol           's:light_orange''
+exe 'hi texMathSymbol           's:light_green''
 exe 'hi texMathZoneA            's:light_orange''
 exe 'hi texMathZoneAS           's:light_orange''
 exe 'hi texSection              's:light_red''
