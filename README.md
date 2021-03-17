@@ -1,4 +1,4 @@
-![](./screenshots/fusion_.png)
+![](./screenshots/fusion.png)
 
 A neutral colorscheme for Vim/NeoVim. Vim Fusion works optimally with [vim-polyglot](https://github.com/sheerun/vim-polyglot) thanks to some of its syntax highlighting definitions; the installation of this plugin is not mandatory but keep in mind that some of the highlightings may not work exactly as shown when it is not installed. 
 
@@ -29,6 +29,9 @@ And then, `:w`, `:source %` and `:PlugInstall`.
 
 ### C++
 ![](./screenshots/cpp.png)
+
+### Javascript 
+![](./screenshots/javascript.png)
 
 ### LaTeX
 ![](./screenshots/latex.png)
