@@ -1,17 +1,17 @@
 ![](./screenshots/fusion.png)
 
-A neutral colorscheme for Vim/NeoVim. Vim Fusion works optimally with [vim-polyglot](https://github.com/sheerun/vim-polyglot) thanks to some of its syntax highlighting definitions; the installation of this plugin is not mandatory but keep in mind that some of the highlightings may not work exactly as shown when it is not installed. 
+A neutral dark colorscheme for Vim/NeoVim. Vim Fusion works optimally with [vim-polyglot](https://github.com/sheerun/vim-polyglot) thanks to some of its syntax highlighting definitions; the installation of this plugin is not mandatory but keep in mind that some of the highlightings may not work exactly as shown when it is not installed. 
 
-## Installation
+## :hammer_and_wrench: Installation
 
-For any of the methods described below add the following line to your `.vimrc`
+For any of the methods described below add the following line to your `.vimrc` (or `init.vim`):
 
 ```console
 colorscheme fusion
 ```
 ### Manual Installation
 
-Clone the repo and add the file `fusion.vim` to the `colors` directory inside `.vim`. In case you don't have it: `mkdir ~/.vim/colors`
+Clone the vim-fusion repo and add the file `fusion.vim` to the `colors` directory inside `.vim`. In case you don't have it: `mkdir ~/.vim/colors`. For NeoVim the same applies but for the `nvim` directory inside `~/.config/`.
 
 ### Using vim-plug
 
@@ -22,7 +22,13 @@ Plug 'lfenzo/vim-fusion'
 ```
 And then, `:w`, `:source %` and `:PlugInstall`.
 
-## Screenshots
+## :money_with_wings: Donate
+
+It's up to you, if you really enjoyed this colorscheme feel free to pay me a coffee (or perhaps a beer)...
+
+**ETH:** `0x0C66c04c8098720998B2049C7a6bF6BbB751cb8e`
+
+## :camera_flash: Screenshots
 
 ### Python
 ![](./screenshots/python.png)
