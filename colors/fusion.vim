@@ -18,7 +18,7 @@ let s:visual_backgroud  = 'ctermbg=239'
 let s:error_message     = 'ctermfg=15       ctermbg=196       cterm=bold' 
 
 " Palette Defaults
-let s:white             = 'ctermfg=15'
+let s:white             = 'ctermfg=255'
 
 let s:blue              = 'ctermfg=69       cterm=bold'
 let s:light_blue        = 'ctermfg=111      cterm=bold'
@@ -45,18 +45,18 @@ let s:light_purple      = 'ctermfg=141      cterm=bold'
 exe 'hi Normal          's:background''
 exe 'hi ErrorMsg        's:error_message'' 
 exe 'hi visual          's:visual_backgroud''
-hi Todo      ctermfg=231 ctermbg=none cterm=bold
-hi Search   ctermfg=240 ctermbg=226
-hi IncSearch ctermfg=240 ctermbg=226 cterm=bold
+hi Todo         ctermfg=232 ctermbg=220 cterm=bold,italic
+hi Search       ctermfg=240 ctermbg=226
+hi IncSearch    ctermfg=240 ctermbg=226 cterm=bold
 
-hi SpecialKey ctermfg=244
+hi SpecialKey   ctermfg=244
 exe 'hi Directory       's:light_blue''
 exe 'hi Title           's:light_green''
-hi WarningMsg ctermfg=9 ctermbg=none cterm=undercurl guisp=#ff5f87
-hi ModeMsg    ctermfg=15 cterm=bold
-hi MoreMsg    ctermfg=15
-hi Question   ctermfg=231 cterm=none
-hi NonText    ctermfg=232
+hi WarningMsg   ctermfg=9   ctermbg=none cterm=undercurl guisp=#ff5f87
+hi ModeMsg      ctermfg=15  cterm=bold
+hi MoreMsg      ctermfg=15
+hi Question     ctermfg=231 cterm=none
+hi NonText      ctermfg=232
 
 hi Menu         ctermfg=253
 hi WildMenu     ctermfg=254 ctermbg=238 cterm=none
@@ -80,7 +80,8 @@ hi CursorColumn ctermbg=9 cterm=none
 hi CursorIM     ctermbg=239 cterm=none
 hi MatchParen   ctermbg=242
 
-hi DiffAdd    ctermfg=42 ctermbg=none cterm=bold
+"hi DiffAdd    ctermfg=42 ctermbg=none cterm=bold
+hi DiffAdd    ctermfg=none ctermbg=42 cterm=bold
 hi DiffDelete ctermfg=9 ctermbg=none cterm=bold
 hi DiffChange ctermfg=105 ctermbg=none cterm=bold
 hi DiffText   ctermfg=229 ctermbg=none cterm=bold
