@@ -80,11 +80,15 @@ hi CursorColumn ctermbg=9 cterm=none
 hi CursorIM     ctermbg=239 cterm=none
 hi MatchParen   ctermbg=242
 
-"hi DiffAdd    ctermfg=42 ctermbg=none cterm=bold
-hi DiffAdd    ctermfg=none ctermbg=42 cterm=bold
-hi DiffDelete ctermfg=9 ctermbg=none cterm=bold
-hi DiffChange ctermfg=105 ctermbg=none cterm=bold
-hi DiffText   ctermfg=229 ctermbg=none cterm=bold
+hi DiffAdd    ctermfg=42    ctermbg=none cterm=bold
+hi DiffDelete ctermfg=9     ctermbg=none cterm=bold
+hi DiffChange ctermfg=105   ctermbg=none cterm=bold
+hi DiffText   ctermfg=229   ctermbg=none cterm=bold
+
+" Git Gutter
+hi GitGutterAdd    ctermfg=42  ctermbg=232  cterm=bold
+hi GitGutterChange ctermfg=105 ctermbg=232  cterm=bold
+hi GitGutterDelete ctermfg=9   ctermbg=232  cterm=bold
 
 "" Style
 hi Bold       cterm=bold
