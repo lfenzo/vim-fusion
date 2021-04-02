@@ -37,10 +37,6 @@ let s:light_purple      = 'ctermfg=141      cterm=bold'
 
 
 
-
-
-
-
 " Applying Palette of Colors to Colorscheme
 exe 'hi Normal          's:background''
 exe 'hi ErrorMsg        's:error_message'' 
@@ -67,7 +63,7 @@ hi PmenuThumb   ctermfg=254 ctermbg=243
 
 "hi StatusLine   ctermfg=231 ctermbg=238 cterm=bold
 "hi StatusLineNC ctermfg=249 ctermbg=238 cterm=none
-hi VertSplit    ctermfg=249 ctermbg=235 cterm=bold
+hi VertSplit    ctermfg=249 ctermbg=234 cterm=bold
 
 hi Folded     ctermfg=10 ctermbg=none cterm=bold
 hi FoldColumn ctermfg=10 ctermbg=none cterm=bold
@@ -78,17 +74,17 @@ hi CursorLineNr ctermfg=15 ctermbg=238 cterm=bold
 hi CursorLine   ctermbg=236 cterm=none
 hi CursorColumn ctermbg=9 cterm=none
 hi CursorIM     ctermbg=239 cterm=none
-hi MatchParen   ctermbg=242
+hi MatchParen   ctermfg=255 ctermbg=246 cterm=bold
 
-hi DiffAdd    ctermfg=42    ctermbg=none cterm=bold
-hi DiffDelete ctermfg=9     ctermbg=none cterm=bold
-hi DiffChange ctermfg=105   ctermbg=none cterm=bold
-hi DiffText   ctermfg=229   ctermbg=none cterm=bold
+hi DiffAdd      ctermfg=42    ctermbg=234 cterm=bold
+hi DiffDelete   ctermfg=9     ctermbg=234 cterm=bold
+hi DiffChange   ctermfg=105   ctermbg=234 cterm=bold
+hi DiffText     ctermfg=229   ctermbg=234 cterm=bold
 
 " Git Gutter
-hi GitGutterAdd    ctermfg=42  ctermbg=232  cterm=bold
-hi GitGutterChange ctermfg=105 ctermbg=232  cterm=bold
-hi GitGutterDelete ctermfg=9   ctermbg=232  cterm=bold
+hi GitGutterAdd    ctermfg=42  ctermbg=234  cterm=bold
+hi GitGutterChange ctermfg=105 ctermbg=234  cterm=bold
+hi GitGutterDelete ctermfg=9   ctermbg=234  cterm=bold
 
 "" Style
 hi Bold       cterm=bold
