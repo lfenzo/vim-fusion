@@ -57,22 +57,29 @@ hi NonText      ctermfg=232
 hi Menu         ctermfg=253
 hi WildMenu     ctermfg=254 ctermbg=238 cterm=none
 hi Pmenu        ctermfg=254 ctermbg=238 
-hi PmenuSel     ctermfg=15 ctermbg=242 cterm=bold
-hi PmenuSbar    ctermfg=15 ctermbg=241
+hi PmenuSel     ctermfg=15  ctermbg=242 cterm=bold
+hi PmenuSbar    ctermfg=15  ctermbg=241
 hi PmenuThumb   ctermfg=254 ctermbg=243
 
-"hi StatusLine   ctermfg=231 ctermbg=238 cterm=bold
-"hi StatusLineNC ctermfg=249 ctermbg=238 cterm=none
-hi VertSplit    ctermfg=249 ctermbg=234 cterm=bold
+" Tab Lines Above Editor
+hi TabLineFill  ctermfg=238     ctermbg=None
+hi TabLine      ctermfg=251     ctermbg=241 cterm=bold
+hi TabLineSel   ctermfg=232     ctermbg=254
+hi Title        ctermfg=232     ctermbg=220
 
-hi Folded     ctermfg=10 ctermbg=none cterm=bold
-hi FoldColumn ctermfg=10 ctermbg=none cterm=bold
-hi SignColumn ctermbg=none
+" Status Line
+hi StatusLine   ctermfg=15      ctermbg=238 cterm=bold
+hi StatusLineNC ctermfg=249     ctermbg=235 cterm=none
+hi VertSplit    ctermfg=249     ctermbg=234 cterm=bold
+
+hi Folded       ctermfg=10 ctermbg=none cterm=bold
+hi FoldColumn   ctermfg=10 ctermbg=none cterm=bold
+hi SignColumn   ctermbg=none
 
 hi LineNr       ctermfg=246 cterm=none
-hi CursorLineNr ctermfg=15 ctermbg=238 cterm=bold 
+hi CursorLineNr ctermfg=15  ctermbg=238 cterm=bold 
 hi CursorLine   ctermbg=236 cterm=none
-hi CursorColumn ctermbg=9 cterm=none
+hi CursorColumn ctermbg=9   cterm=none
 hi CursorIM     ctermbg=239 cterm=none
 hi MatchParen   ctermfg=255 ctermbg=246 cterm=bold
 
