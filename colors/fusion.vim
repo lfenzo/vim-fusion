@@ -10,7 +10,6 @@ endif
 
 let g:colors_name="fusion"
 
-
 " Interface Defaults
 let s:background        = 'ctermfg=15       ctermbg=234'
 let s:search            = 'ctermfg=240      ctermbg=226'
@@ -36,7 +35,6 @@ let s:purple            = 'ctermfg=135      cterm=bold'
 let s:light_purple      = 'ctermfg=141      cterm=bold' 
 
 
-
 " Applying Palette of Colors to Colorscheme
 exe 'hi Normal          's:background''
 exe 'hi ErrorMsg        's:error_message'' 
@@ -45,7 +43,7 @@ hi Todo         ctermfg=232 ctermbg=220 cterm=bold,italic
 hi Search       ctermfg=240 ctermbg=226
 hi IncSearch    ctermfg=240 ctermbg=226 cterm=bold
 
-hi SpecialKey   ctermfg=244
+hi SpecialKey   ctermfg=9
 exe 'hi Directory       's:light_blue''
 exe 'hi Title           's:light_green''
 hi WarningMsg   ctermfg=9   ctermbg=none cterm=undercurl guisp=#ff5f87
@@ -63,12 +61,12 @@ hi PmenuThumb   ctermfg=254 ctermbg=243
 
 " Tab Lines Above Editor
 hi TabLineFill  ctermfg=238     ctermbg=None
-hi TabLine      ctermfg=251     ctermbg=241 cterm=bold
-hi TabLineSel   ctermfg=232     ctermbg=254
+hi TabLine      ctermfg=251     ctermbg=241 cterm=None
+hi TabLineSel   ctermfg=232     ctermbg=252
 hi Title        ctermfg=232     ctermbg=220
 
 " Status Line
-hi StatusLine   ctermfg=15      ctermbg=238 cterm=bold
+hi StatusLine   ctermfg=232     ctermbg=252 cterm=bold
 hi StatusLineNC ctermfg=249     ctermbg=235 cterm=none
 hi VertSplit    ctermfg=249     ctermbg=234 cterm=bold
 

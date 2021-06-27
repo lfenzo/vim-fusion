@@ -2,6 +2,8 @@
 
 A neutral dark colorscheme for Vim/NeoVim. Vim Fusion works optimally with [vim-polyglot](https://github.com/sheerun/vim-polyglot) thanks to some of its syntax highlighting definitions; the installation of this plugin is not mandatory but keep in mind that some of the highlightings may not work exactly as shown when it is not installed. 
 
+![](./screenshots/cover.png)
+
 ## :hammer_and_wrench: Installation
 
 For any of the methods described below add the following line to your `.vimrc` (or `init.vim`):
