@@ -45,7 +45,7 @@ hi IncSearch    ctermfg=240 ctermbg=226 cterm=bold
 
 hi SpecialKey   ctermfg=9
 exe 'hi Directory       's:light_blue''
-exe 'hi Title           's:light_green''
+exe 'hi Title           's:light_red''
 hi WarningMsg   ctermfg=9   ctermbg=none cterm=undercurl guisp=#ff5f87
 hi ModeMsg      ctermfg=15  cterm=bold
 hi MoreMsg      ctermfg=15
@@ -63,7 +63,6 @@ hi PmenuThumb   ctermfg=254 ctermbg=243
 hi TabLineFill  ctermfg=238     ctermbg=None
 hi TabLine      ctermfg=251     ctermbg=241 cterm=None
 hi TabLineSel   ctermfg=232     ctermbg=252
-hi Title        ctermfg=232     ctermbg=220
 
 " Status Line
 hi StatusLine   ctermfg=232     ctermbg=252 cterm=bold
