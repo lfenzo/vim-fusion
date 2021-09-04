@@ -323,3 +323,15 @@ exe 'hi juliaBaseTypeRandom     's:blue''
 exe 'hi juliaBaseTypeDisplay	  's:blue''
 exe 'hi juliaBaseTypeTime		    's:blue''
 exe 'hi juliaBaseTypeOther		  's:blue''
+
+" Java syntax
+exe 'hi javaTypedef		          's:purple''
+exe 'hi javaStorageClass		    's:orange''
+exe 'hi javaScopeDecl		        's:light_red''
+exe 'hi javaExternal		        's:light_blue''
+exe 'hi javaError		            's:light_blue''
+exe 'hi javaAnnotation		      's:blue''
+exe 'hi javaClassDecl		        's:orange''
+exe 'hi javaMethodDecl		      's:orange''
+exe 'hi javaOperator		        's:light_orange''
+
