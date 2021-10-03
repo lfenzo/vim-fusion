@@ -304,6 +304,7 @@ exe 'hi juliaDollarPar          's:white''
 exe 'hi juliaBeginBlock         's:orange''
 exe 'hi juliaMacro              's:purple''
 exe 'hi juliaStringVarDelim		  's:orange''
+exe 'hi juliaStringVarsPla		  's:orange''
 
 exe 'hi juliaBaseTypeBasic		  's:blue''
 exe 'hi juliaBaseTypeNum		    's:blue''
