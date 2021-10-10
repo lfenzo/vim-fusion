@@ -255,6 +255,13 @@ exe 'hi jsModuleComma           's:orange''
 exe 'hi jsNull                  's:light_purple''
 exe 'hi jsBuiltins              's:blue''
 
+" C Syntax
+exe 'hi cDefine                 's:light_purple''
+exe 'hi cType                   's:light_orange''
+exe 'hi cPreCondit              's:blue''
+exe 'hi cPreProc                's:red''
+exe 'hi cConstant               's:green''
+
 " C++ Syntax
 exe 'hi cppAccess               's:light_blue''
 exe 'hi cppCast                 's:red''
