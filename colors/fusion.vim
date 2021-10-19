@@ -163,11 +163,13 @@ exe 'hi texMathMatcher          's:light_orange''
 exe 'hi texMathSymbol           's:light_green''
 exe 'hi texMathZoneA            's:light_orange''
 exe 'hi texMathZoneAS           's:light_orange''
+exe 'hi texCite                 's:light_orange''
 exe 'hi texSection              's:light_red''
 exe 'hi texSectionTitle         's:light_green'' 
 exe 'hi texStatement            's:light_blue''
 exe 'hi texTypeSize             's:light_orange''
 exe 'hi texTypeStyle            's:light_blue''
+
 
 " Markdown Syntax 
 exe 'hi mkdBlockquote           's:light_orange''
