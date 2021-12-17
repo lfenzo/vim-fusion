@@ -1,6 +1,19 @@
-![](./screenshots/fusion.png)
+```{python}
+              ___           ___           ___                       ___           ___     
+             /\__\         /\  \         /\__\                     /\  \         /\  \    
+            /:/ _/_        \:\  \       /:/ _/_       ___         /::\  \        \:\  \   
+           /:/ /\__\        \:\  \     /:/ /\  \     /\__\       /:/\:\  \        \:\  \  
+          /:/ /:/  /    ___  \:\  \   /:/ /::\  \   /:/__/      /:/  \:\  \   _____\:\  \ 
+         /:/_/:/  /    /\  \  \:\__\ /:/_/:/\:\__\ /::\  \     /:/__/ \:\__\ /::::::::\__\
+         \:\/:/  /     \:\  \ /:/  / \:\/:/ /:/  / \/\:\  \__  \:\  \ /:/  / \:\~~\~~\/__/
+          \::/__/       \:\  /:/  /   \::/ /:/  /   ~~\:\/\__\  \:\  /:/  /   \:\  \      
+           \:\  \        \:\/:/  /     \/_/:/  /       \::/  /   \:\/:/  /     \:\  \     
+            \:\__\        \::/  /        /:/  /        /:/  /     \::/  /       \:\__\    
+             \/__/         \/__/         \/__/         \/__/       \/__/         \/__/
+        
+```
 
-A neutral dark colorscheme for Vim/NeoVim. Vim Fusion works optimally with [vim-polyglot](https://github.com/sheerun/vim-polyglot) thanks to some of its syntax highlighting definitions; the installation of this plugin is not mandatory but keep in mind that some of the highlightings may not work exactly as shown when it is not installed. 
+Vim Fusion is a neutral dark 256-color colorscheme for Vim/NeoVim. Vim Fusion works optimally with [vim-polyglot](https://github.com/sheerun/vim-polyglot) thanks to some of its syntax highlighting definitions; the installation of this plugin is not mandatory but keep in mind that some of the highlightings may not work exactly as shown when it is not installed. 
 
 ![](./screenshots/cover.png)
 
@@ -36,7 +49,7 @@ It's up to you, if you really enjoyed this colorscheme feel free to pay me a cof
 ![](./screenshots/python.png)
 
 ### C++
-![](./screenshots/cpp.png)
+![](./screenshots/cplusplus.png)
 
 ### Javascript 
 ![](./screenshots/javascript.png)
