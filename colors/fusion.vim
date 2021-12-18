@@ -69,6 +69,7 @@ hi StatusLine   ctermfg=232     ctermbg=252 cterm=bold
 hi StatusLineNC ctermfg=249     ctermbg=235 cterm=none
 hi VertSplit    ctermfg=249     ctermbg=234 cterm=bold
 
+
 hi Folded       ctermfg=10 ctermbg=none cterm=bold
 hi FoldColumn   ctermfg=10 ctermbg=none cterm=bold
 hi SignColumn   ctermbg=none
@@ -354,3 +355,21 @@ exe 'hi javaClassDecl		    's:orange''
 exe 'hi javaMethodDecl		    's:orange''
 exe 'hi javaOperator		    's:light_orange''
 
+
+" Vim Fugitive syntax definitions
+exe 'hi fugitiveHelpHeader       's:light_blue''
+exe 'hi fugitiveHeader           's:light_blue''
+exe 'hi fugitiveHelpTag          's:white''
+exe 'hi fugitiveHeading          's:light_blue''
+exe 'hi fugitiveUntrackedHeading 's:light_purple''
+exe 'hi fugitiveUnstagedHeading  's:light_orange''
+exe 'hi fugitiveStagedHeading    's:light_green''
+exe 'hi fugitiveModifier         's:light_blue''
+exe 'hi fugitiveUntrackedModifier's:purple''
+exe 'hi fugitiveUnstagedModifier 's:orange''
+exe 'hi fugitiveStagedModifier   's:green''
+exe 'hi fugitiveInstruction      's:light_blue''
+exe 'hi fugitiveStop             's:light_blue''
+exe 'hi fugitiveHash             's:light_blue''
+exe 'hi fugitiveSymbolicRef      's:light_red''
+hi fugitiveCount                 ctermfg=220 ctermbg=232 cterm=bold,italic
