@@ -66,7 +66,7 @@ hi TabLineSel   ctermfg=232     ctermbg=252
 
 " Status Line
 hi StatusLine   ctermfg=232     ctermbg=252 cterm=bold
-hi StatusLineNC ctermfg=249     ctermbg=235 cterm=none
+hi StatusLineNC ctermfg=249     ctermbg=238 cterm=none
 hi VertSplit    ctermfg=249     ctermbg=234 cterm=bold
 
 
@@ -371,6 +371,5 @@ exe 'hi fugitiveStagedModifier   's:green''
 exe 'hi fugitiveInstruction      's:light_blue''
 exe 'hi fugitiveStop             's:light_blue''
 hi fugitiveHash ctermfg=220 ctermbg=232 cterm=bold,italic
-"exe 'hi fugitiveHash             's:light_blue''
 exe 'hi fugitiveSymbolicRef      's:light_red''
 hi fugitiveCount                 ctermfg=220 ctermbg=232 cterm=bold,italic
