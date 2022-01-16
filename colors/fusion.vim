@@ -72,6 +72,7 @@ hi VertSplit    ctermfg=249     ctermbg=234 cterm=bold
 
 hi Folded       ctermfg=10 ctermbg=none cterm=bold
 hi FoldColumn   ctermfg=10 ctermbg=none cterm=bold
+hi ColorColumn  ctermfg=15 ctermbg=238
 hi SignColumn   ctermbg=none
 
 hi LineNr       ctermfg=246 cterm=none
